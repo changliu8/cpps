@@ -54,6 +54,17 @@ int main(){
     findOrNot(vec1,10);
     findOrNot(vec1,11);
 
+
+    //sort
+    sort(vec1.begin(),vec1.end());
+
+    for(int i = 0;i<vec1.size();i++){
+        cout << vec1[i] << ",";
+    }
+    cout << endl;
+    //descending order
+    sort(vec1.begin(),vec1.end(),greater<>());
+
     for(int i = 0;i<vec1.size();i++){
         cout << vec1[i] << ",";
     }
