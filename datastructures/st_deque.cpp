@@ -14,7 +14,11 @@ int main(){
         }
     }
 
+    cout << dq.back() << endl;
+
     dq.pop_back();
+    
+    cout << dq.front() << endl;
     dq.pop_front();
 
     for(auto iter: dq){
